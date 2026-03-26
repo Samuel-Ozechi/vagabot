@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -51,8 +52,8 @@ export default function VagaBotUI() {
             <h1 className="text-5xl md:text-7xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500">
               VagaBot
             </h1>
-            <p className="mt-4 text-slate-400 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
-              Advanced multi-agent orchestration engine that synthesizes real-time global data to create personalized travel itenerries
+            <p className="mt-4 text-slate-400 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed">
+              An advanced <span className="text-blue-400 font-medium">multi-agent orchestration engine</span> designed to synthesize real-time global data—from meteorological patterns to localized market liquidity—into high-fidelity travel intelligence.
             </p>
           </motion.div>
         </header>
@@ -135,43 +136,35 @@ export default function VagaBotUI() {
           transition={{ duration: 0.8 }}
           className="mt-32 w-full grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl"
         >
-          {/* Card 1: Smart Synthesis */}
           <div className="group p-8 rounded-3xl bg-gradient-to-b from-white/[0.05] to-transparent border border-white/5 hover:border-blue-500/30 transition-colors">
             <Sparkles className="w-8 h-8 text-blue-400 mb-4 group-hover:scale-110 transition-transform" />
             <h3 className="text-xl font-bold text-white mb-2">Smart Synthesis</h3>
             <p className="text-slate-400 leading-relaxed font-light">
-              Autonomous multi-agent orchestration that validates meteorological data and market liquidity 
-              trends in real-time to ensure logistical viability.
+              Autonomous multi-agent orchestration that validates meteorological data and market liquidity trends in real-time to ensure logistical viability.
             </p>
           </div>
 
-          {/* Card 2: Location Intelligence */}
           <div className="group p-8 rounded-3xl bg-gradient-to-b from-white/[0.05] to-transparent border border-white/5 hover:border-purple-500/30 transition-colors">
             <MapPin className="w-8 h-8 text-purple-400 mb-4 group-hover:scale-110 transition-transform" />
             <h3 className="text-xl font-bold text-white mb-2">Location Intelligence</h3>
             <p className="text-slate-400 leading-relaxed font-light">
-              Deep-linking regional attraction telemetry with curated hospitality inventory to create 
-              a high-fidelity, frictionless travel experience.
+              Deep-linking regional attraction telemetry with curated hospitality inventory to create a high-fidelity, frictionless travel experience.
             </p>
           </div>
 
-          {/* NEW Card 3: Adaptive Constraints */}
           <div className="group p-8 rounded-3xl bg-gradient-to-b from-white/[0.05] to-transparent border border-white/5 hover:border-emerald-500/30 transition-colors">
             <Globe className="w-8 h-8 text-emerald-400 mb-4 group-hover:scale-110 transition-transform" />
             <h3 className="text-xl font-bold text-white mb-2">Adaptive Constraints</h3>
             <p className="text-slate-400 leading-relaxed font-light">
-              Dynamic adjustment for budget parameters, visa requirements, and seasonal accessibility 
-              to provide risk-mitigated itinerary planning.
+              Dynamic adjustment for budget parameters, visa requirements, and seasonal accessibility to provide risk-mitigated itinerary planning.
             </p>
           </div>
 
-          {/* NEW Card 4: Algorithmic Pacing */}
           <div className="group p-8 rounded-3xl bg-gradient-to-b from-white/[0.05] to-transparent border border-white/5 hover:border-orange-500/30 transition-colors">
             <Compass className="w-8 h-8 text-orange-400 mb-4 group-hover:scale-110 transition-transform" />
             <h3 className="text-xl font-bold text-white mb-2">Algorithmic Pacing</h3>
             <p className="text-slate-400 leading-relaxed font-light">
-              Intelligent activity sequencing designed to optimize transit windows and maximize 
-              destination engagement without logistical fatigue.
+              Intelligent activity sequencing designed to optimize transit windows and maximize destination engagement without logistical fatigue.
             </p>
           </div>
         </motion.section>
@@ -182,6 +175,7 @@ export default function VagaBotUI() {
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
             <p className="text-white font-bold text-xl tracking-tighter">Samuel Ozechi</p>
+            <p className="text-slate-500 text-sm mt-1 font-light italic">AI Solutions Architect</p>
           </div>
           
           <div className="flex gap-8">
