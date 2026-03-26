@@ -53,7 +53,7 @@ export default function VagaBotUI() {
               VagaBot
             </h1>
             <p className="mt-4 text-slate-400 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed">
-              An advanced <span className="text-blue-400 font-medium">multi-agent orchestration engine</span> designed to synthesize real-time global data—from meteorological patterns to localized market liquidity—into high-fidelity travel intelligence.
+              An advanced <span className="text-blue-400 font-medium">multi-agent orchestration engine</span> designed to synthesize real-time global data from meteorological patterns to localized market liquidity into high-fidelity travel intelligence.
             </p>
           </motion.div>
         </header>
