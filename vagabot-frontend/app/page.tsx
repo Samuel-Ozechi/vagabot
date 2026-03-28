@@ -183,7 +183,7 @@ export default function VagaBotUI() {
                          <div className="w-16 h-16 border-4 border-blue-500/20 border-t-blue-500 rounded-full animate-spin" />
                          <Globe className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-blue-500 w-6 h-6 animate-pulse" />
                       </div>
-                      <p className="text-slate-400 font-medium tracking-wide">Orchestrating tools...</p>
+                      <p className="text-slate-400 font-medium tracking-wide">Orchestrating agents...</p>
                     </div>
                   ) : (
                     <motion.div 
