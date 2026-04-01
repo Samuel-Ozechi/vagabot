@@ -10,7 +10,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Initialize FastAPI app
-app = FastAPI(title="VagaBot API", version="1.0.0")
+app = FastAPI(title="VagaBot API", version="1.0.0", description="Agentic AI trip planner that utilizes external APIs to derive the best trip plans for users based on current weather, hotel, and price information")
 
 # CORS middleware (allow all origins for now, restrict in production)
 app.add_middleware(
